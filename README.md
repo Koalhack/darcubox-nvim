@@ -4,12 +4,35 @@ A color scheme for Neovim inspired by Gruvbox and Darcula written in Lua
 
 ![darcubox](https://github.com/dotsilas/darcubox-nvim/assets/84829590/e88ffbf6-a658-4def-83d3-90907f11f07c)
 
+**Note: This repository is forked from [@dotsilas/darcubox-nvim](https://github.com/dotsilas/darcubox-nvim)**
 
-**Note: This is under development.**
+Hello, I've taken over the project created by [@dotsilas](https://github.com/dotsilas) to support its development
+and add integration to several plugins, themes and tools. I'm working on this project as a solo developer.
 
-Hello! Thanks for checking out my project. I'm working on it solo, so there might be some rough edges.
 If you encounter problems or have ideas, please open an issue. Your input is valuable in improving the project.
 Thanks for your interest!
+
+## Features
+
+### Supported Plugins
+
+- [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [LSP Diagnostics ](https://neovim.io/doc/user/lsp.html)
+- [LSP Saga](https://github.com/nvimdev/lspsaga.nvim)
+- [Git](https://github.com/dinhhuy258/git.nvim)
+- [Git Signs](https://github.com/lewis6991/gitsigns.nvim)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [WichKey](https://github.com/folke/which-key.nvim)
+- [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [Dashboard](https://github.com/nvimdev/dashboard-nvim)
+- [BufferLine](https://github.com/akinsho/bufferline.nvim)
+- [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+
+### Extras
+
+- [Powershell](https://learn.microsoft.com/fr-fr/powershell/) ([powershell](extras/powershell))
+  - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) ([Terminal-Icons](extras/powershell/Terminal-Icons))
+- [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
 
 ## Instalation
 
@@ -17,7 +40,16 @@ Using [Lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  "dotsilas/darcubox-nvim",
+  "Koalhack/darcubox-nvim",
+  config = function() vim.cmd("colorscheme darcubox") end
+}
+```
+
+Using [Packer.nvim](https://github.com/wbthomason/packer.nvim):
+
+```lua
+use {
+  "Koalhack/darcubox-nvim",
   config = function() vim.cmd("colorscheme darcubox") end
 }
 ```
@@ -25,6 +57,7 @@ Using [Lazy.nvim](https://github.com/folke/lazy.nvim):
 ## Usage
 
 ### Lua
+
 ```lua
 vim.cmd[[colorscheme darcubox]]
 ```
@@ -67,13 +100,28 @@ require('darcubox').setup({
 vim.cmd[[colorscheme darcubox]]
 ```
 
+### Lualine
+
+```lua
+local status, lualine = pcall(require, "lualine")
+if (not status) then return end
+
+lualine.setup {
+  options = {
+    theme = 'darcubox'
+  }
+}
+```
+
 ## Thanks to:
 
 ### Palette inspiration
+
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [Darcula](https://github.com/bulenkov/Darcula)
 
 ### Template ideas
+
 - [Material](https://github.com/marko-cerovac/material.nvim)
 - [Tokio Night](https://github.com/folke/tokyonight.nvim)
 
