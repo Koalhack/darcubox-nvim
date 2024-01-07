@@ -432,12 +432,16 @@ function M.setup()
     -- BufferLineSeparatorSelected = 'bg_alt bg',
     -- BufferLineBufferSelected = 'yellow - b',
 
-    -- IndentBlankline
+    -- IndentBlankline -- Version 2
     IndentBlanklineChar                  = { fg = p.surface2 },
     IndentBlanklineContextChar           = { fg = p.gold },
     -- IndentBlanklineContextStart = '- - u',
     -- IndentBlanklineSpaceChar = 'cyan',
     -- IndentBlanklineSpaceCharBlankline = 'yellow',
+
+    -- IndentBlankline -- Version 3
+    IblIndent                            = { link = "IndentBlanklineChar" },
+    IblScope                             = { link = "IndentBlanklineContextChar" },
 
     -- Dashboard
     DashboardShortCut                    = { fg = p.sunshine },
