@@ -1,9 +1,8 @@
 local M = {}
 
 function M.setup()
-  local config    = require("darcubox").config
   local p         = require("darcubox.palette").palette
-
+  local config    = require("darcubox").config
   local bg        = config.options.transparent and "NONE" or p.bg
 
   local groups    = {
