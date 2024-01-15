@@ -33,7 +33,7 @@ function M.setup()
     IncSearch                            = { fg = p.black, bg = p.gold },
     LineNr                               = { fg = p.surface2 },
     CursorLineNr                         = { fg = p.alabaster },
-    MatchParen                           = { bg = p.gold, fg = p.black },
+    MatchParen                           = { special = p.gold, undercurl = true },
     MsgSeparator                         = { fg = p.fg, bg = bg },
     MsgArea                              = { link = 'Normal' },
     NonText                              = { fg = p.surface2 },
