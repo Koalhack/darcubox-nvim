@@ -297,18 +297,18 @@ function M.setup()
     LspDiagnosticsUnderlineError         = { undercurl = true, special = p.error }, -- Used to underline "Error" diagnostic
     DiagnosticError                      = { fg = p.error, bg = p.error_bg },
     DiagnosticSignError                  = { fg = p.error },
-    DiagnosticUnderlineError             = { fg = p.error, bg = p.error_bg },
+    DiagnosticUnderlineError             = { undercurl = true, special = p.error },
     DiagnosticFloatingError              = { fg = p.error, bg = p.error_bg },
     DiagnosticVirtualTextError           = { fg = p.error, bg = p.error_bg },
 
     LspDiagnosticsWarning                = { fg = p.warning, bg = p.warning_bg },
-    LspDiagnosticsDefaultWarning         = { fg = p.warning, bg = p.warning_bg },        -- Used for "Warning" diagnostic virtual text
-    LspDiagnosticsSignWarning            = { fg = p.warning },                           -- Used for "Warning" diagnostic signs in sign column
-    LspDiagnosticsFloatingWarning        = { fg = p.warning, bg = p.warning_bg },        -- Used for "Warning" diagnostic messages in the diagnostic float
-    LspDiagnosticsVirtualTextWarning     = { fg = p.warning, bg = p.warning_bg },        -- Virtual text "Warning"
-    LspDiagnosticsUnderlineWarning       = { undercurl = true, special = p.warning_bg }, -- Used to underline "Warning" diagnostic
+    LspDiagnosticsDefaultWarning         = { fg = p.warning, bg = p.warning_bg },     -- Used for "Warning" diagnostic virtual text
+    LspDiagnosticsSignWarning            = { fg = p.warning },                        -- Used for "Warning" diagnostic signs in sign column
+    LspDiagnosticsFloatingWarning        = { fg = p.warning, bg = p.warning_bg },     -- Used for "Warning" diagnostic messages in the diagnostic float
+    LspDiagnosticsVirtualTextWarning     = { fg = p.warning, bg = p.warning_bg },     -- Virtual text "Warning"
+    LspDiagnosticsUnderlineWarning       = { undercurl = true, special = p.warning }, -- Used to underline "Warning" diagnostic
     DiagnosticSignWarning                = { fg = p.warning },
-    DiagnosticUnderlineWarn              = { fg = p.warning, bg = p.warning_bg },
+    DiagnosticUnderlineWarn              = { undercurl = true, special = p.warning },
     DiagnosticVirtualTextWarn            = { fg = p.warning, bg = p.warning_bg },
     DiagnosticFloatingWarn               = { fg = p.warning, bg = p.warning_bg },
 
@@ -321,28 +321,28 @@ function M.setup()
     DiagnosticSignInformation            = { fg = p.info },
 
     LspDiagnosticsInfo                   = { fg = p.info, bg = p.info_bg },
-    LspDiagnosticsDefaultInfo            = { fg = p.info, bg = p.info_bg },           -- Used for "info" diagnostic virtual text
-    LspDiagnosticsSignInfo               = { fg = p.info },                           -- Used for "info" diagnostic signs in sign column
-    LspDiagnosticsFloatingInfo           = { fg = p.info, bg = p.info_bg },           -- Used for "info" diagnostic messages in the diagnostic float
-    LspDiagnosticsVirtualTextInfo        = { fg = p.info, bg = p.info_bg },           -- Virtual text "info"
-    LspDiagnosticsUnderlineInfo          = { undercurl = true, special = p.info_bg }, -- Used to underline "info" diagnostic
+    LspDiagnosticsDefaultInfo            = { fg = p.info, bg = p.info_bg },        -- Used for "info" diagnostic virtual text
+    LspDiagnosticsSignInfo               = { fg = p.info },                        -- Used for "info" diagnostic signs in sign column
+    LspDiagnosticsFloatingInfo           = { fg = p.info, bg = p.info_bg },        -- Used for "info" diagnostic messages in the diagnostic float
+    LspDiagnosticsVirtualTextInfo        = { fg = p.info, bg = p.info_bg },        -- Virtual text "info"
+    LspDiagnosticsUnderlineInfo          = { undercurl = true, special = p.info }, -- Used to underline "info" diagnostic
     DiagnosticInfo                       = { fg = p.info, bg = p.info_bg },
     DiagnosticSignInfo                   = { fg = p.info },
     DiagnosticFloatingInfo               = { fg = p.info, bg = p.info_bg },
     DiagnosticVirtualTextInfo            = { fg = p.info, bg = p.info_bg },
-    DiagnosticUnderlineInfo              = { fg = p.info, bg = p.info_bg },
+    DiagnosticUnderlineInfo              = { undercurl = true, special = p.info },
 
     LspDiagnosticsHint                   = { fg = p.hint, bg = p.hint_bg },
-    LspDiagnosticsDefaultHint            = { fg = p.hint, bg = p.hint_bg },           -- Used for "hint" diagnostic virtual text
-    LspDiagnosticsSignHint               = { fg = p.hint },                           -- Used for "hint" diagnostic signs in sign column
-    LspDiagnosticsFloatingHint           = { fg = p.hint, bg = p.hint_bg },           -- Used for "hint" diagnostic messages in the diagnostic float
-    LspDiagnosticsVirtualTextHint        = { fg = p.hint, bg = p.hint_bg },           -- Virtual text "hint"
-    LspDiagnosticsUnderlineHint          = { undercurl = true, special = p.hint_bg }, -- Used to underline "hint" diagnostic
+    LspDiagnosticsDefaultHint            = { fg = p.hint, bg = p.hint_bg },        -- Used for "hint" diagnostic virtual text
+    LspDiagnosticsSignHint               = { fg = p.hint },                        -- Used for "hint" diagnostic signs in sign column
+    LspDiagnosticsFloatingHint           = { fg = p.hint, bg = p.hint_bg },        -- Used for "hint" diagnostic messages in the diagnostic float
+    LspDiagnosticsVirtualTextHint        = { fg = p.hint, bg = p.hint_bg },        -- Virtual text "hint"
+    LspDiagnosticsUnderlineHint          = { undercurl = true, special = p.hint }, -- Used to underline "hint" diagnostic
     DiagnosticHint                       = { fg = p.hint, bg = p.hint_bg },
     DiagnosticSignHint                   = { fg = p.hint },
     DiagnosticFloatingHint               = { fg = p.hint, bg = p.hint_bg },
     DiagnosticVirtualTextHint            = { fg = p.hint, bg = p.hint_bg },
-    DiagnosticUnderlineHint              = { fg = p.hint, bg = p.hint_bg },
+    DiagnosticUnderlineHint              = { undercurl = true, special = p.hint },
 
     DiagnosticOther                      = { fg = p.silver },
     DiagnosticSignOther                  = { fg = p.silver },
