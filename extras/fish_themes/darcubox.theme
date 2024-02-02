@@ -1,0 +1,25 @@
+# name: 'Darcubox'
+# preferred_background: black
+
+# Syntax Highlighting Colors
+fish_color_normal d01c26
+fish_color_command 0f829d
+fish_color_keyword cd80b9
+fish_color_quote ffd072
+fish_color_redirection d01c26
+fish_color_end fb982e
+fish_color_error d01c26
+fish_color_param e6a96b
+fish_color_comment 8f8682
+fish_color_selection --background=404146
+fish_color_search_match --background=404146
+fish_color_operator 9cd750
+fish_color_escape cd80b9
+fish_color_autosuggestion 8f8682
+
+# Completion Pager Colors
+fish_pager_color_progress 8f8682
+fish_pager_color_prefix 0f829d
+fish_pager_color_completion d01c26
+fish_pager_color_description 8f8682
+fish_pager_color_selected_background --background=404146
