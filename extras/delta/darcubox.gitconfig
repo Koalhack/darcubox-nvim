@@ -1,0 +1,13 @@
+[delta]
+  syntax-theme                  = darcubox
+  minus-style                   = syntax "#9E2927"
+  minus-non-emph-style          = syntax "#9E2927"
+  minus-emph-style              = "#16181C" "#EB5F6A"
+  minus-empty-line-marker-style = syntax "#9E2927"
+  line-numbers-minus-style      = "#EB5F6A"
+  plus-style                    = syntax "#32593D"
+  plus-non-emph-style           = syntax "#32593D"
+  plus-emph-style               = "#16181C" "#5A9F81"
+  plus-empty-line-marker-style  = syntax "#32593D"
+  line-numbers-plus-style       = "#5A9F81"
+  line-numbers-zero-style       = "#263C50"
