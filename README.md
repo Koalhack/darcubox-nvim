@@ -30,8 +30,12 @@ Thanks for your interest!
 
 ### Extras
 
+- [Delta](https://github.com/dandavison/delta) ([delta](extras/delta))
+- [Fish](https://fishshell.com/docs/current/index.html) ([fish](extras/fish))
+- [Fish Themes](https://fishshell.com/docs/current/interactive.html#syntax-highlighting) ([fish_themes](extras/fish_themes))
 - [Powershell](https://learn.microsoft.com/fr-fr/powershell/) ([powershell](extras/powershell))
   - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) ([Terminal-Icons](extras/powershell/Terminal-Icons))
+- [Sublime Text](https://www.sublimetext.com/docs/themes) ([sublime](extras/sublime))
 - [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
 
 ## Instalation
