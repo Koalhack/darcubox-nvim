@@ -2,37 +2,37 @@ local M = {}
 
 M.palette = {
   -- UI
-  contrast   = "#0a0d0f",
-  bg         = "#0e1214",
-  surface1   = "#25262c",
-  surface2   = "#404146",
-  fg         = "#d0c6a5",
+  contrast = "#0a0d0f",
+  bg = "#0e1214",
+  surface1 = "#25262c",
+  surface2 = "#404146",
+  fg = "#d0c6a5",
 
   -- Syntax
-  black      = "#16181c",
-  sunshine   = "#ffd072",
-  gold       = "#fb982e",
-  ember      = "#dd4e21",
-  sand       = "#e6a96b",
-  meadow     = "#52a260",
-  lime       = "#9cd750",
-  sapphire   = "#0f829d",
-  crimson    = "#d01c26",
-  lilac      = "#cd80b9",
-  silver     = "#8f8682",
-  alabaster  = "#efead9",
+  black = "#16181c",
+  sunshine = "#ffd072",
+  gold = "#fb982e",
+  ember = "#dd4e21",
+  sand = "#e6a96b",
+  meadow = "#52a260",
+  lime = "#9cd750",
+  sapphire = "#0f829d",
+  crimson = "#d01c26",
+  lilac = "#cd80b9",
+  silver = "#8f8682",
+  alabaster = "#efead9",
 
   -- diff, git and diagnostic colors
-  error      = "#eb5f6a", -- default: #EB5F6A
-  warning    = "#FF9B0A",
-  plus       = "#5a9f81", -- default: #5A9F81
-  info       = "#878080",
-  hint       = "#287BDE",
-  error_bg   = "#9E2927", -- default: #4d2d2c
+  error = "#eb5f6a", -- default: #EB5F6A
+  warning = "#FF9B0A",
+  plus = "#5a9f81", -- default: #5A9F81
+  info = "#878080",
+  hint = "#287BDE",
+  error_bg = "#9E2927", -- default: #4d2d2c
   warning_bg = "#42321B", -- default: #42321B
-  plus_bg    = "#32593D",
-  info_bg    = "#484040", -- default: #484040
-  hint_bg    = "#263C50", -- default: #263C50
+  plus_bg = "#32593D",
+  info_bg = "#484040", -- default: #484040
+  hint_bg = "#263C50", -- default: #263C50
 }
 
 -- Darcula colors:
@@ -49,7 +49,6 @@ M.palette = {
 -- #6D9CBE #BABABA #A5C261 #507874 #3C3F41 #BBBBBB #787878
 -- #4E5254 #C57633 #232525 #4EADE5 #20999D #5E5339 #3B3B3B
 -- #787878 #2F2F2F #3592C4 #499C54 #C75450 #93896C
-
 
 -- Gruvbox colors:
 ------------------
