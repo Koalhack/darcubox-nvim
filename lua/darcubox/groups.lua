@@ -296,7 +296,7 @@ function M.setup()
     LspDiagnosticsFloatingError = { fg = p.error, bg = p.error_bg }, -- Used for "Error" diagnostic messages in the diagnostic float
     LspDiagnosticsVirtualTextError = { fg = p.error, bg = p.error_bg }, -- Virtual text "Error"
     LspDiagnosticsUnderlineError = { undercurl = true, special = p.error }, -- Used to underline "Error" diagnostic
-    DiagnosticError = { fg = p.error, bg = p.error_bg },
+    DiagnosticError = { fg = p.error },
     DiagnosticSignError = { fg = p.error },
     DiagnosticUnderlineError = { undercurl = true, special = p.error },
     DiagnosticFloatingError = { fg = p.error, bg = p.error_bg },
@@ -327,7 +327,7 @@ function M.setup()
     LspDiagnosticsFloatingInfo = { fg = p.info, bg = p.info_bg }, -- Used for "info" diagnostic messages in the diagnostic float
     LspDiagnosticsVirtualTextInfo = { fg = p.info, bg = p.info_bg }, -- Virtual text "info"
     LspDiagnosticsUnderlineInfo = { undercurl = true, special = p.info }, -- Used to underline "info" diagnostic
-    DiagnosticInfo = { fg = p.info, bg = p.info_bg },
+    DiagnosticInfo = { fg = p.info },
     DiagnosticSignInfo = { fg = p.info },
     DiagnosticFloatingInfo = { fg = p.info, bg = p.info_bg },
     DiagnosticVirtualTextInfo = { fg = p.info, bg = p.info_bg },
@@ -339,7 +339,7 @@ function M.setup()
     LspDiagnosticsFloatingHint = { fg = p.hint, bg = p.hint_bg }, -- Used for "hint" diagnostic messages in the diagnostic float
     LspDiagnosticsVirtualTextHint = { fg = p.hint, bg = p.hint_bg }, -- Virtual text "hint"
     LspDiagnosticsUnderlineHint = { undercurl = true, special = p.hint }, -- Used to underline "hint" diagnostic
-    DiagnosticHint = { fg = p.hint, bg = p.hint_bg },
+    DiagnosticHint = { fg = p.hint },
     DiagnosticSignHint = { fg = p.hint },
     DiagnosticFloatingHint = { fg = p.hint, bg = p.hint_bg },
     DiagnosticVirtualTextHint = { fg = p.hint, bg = p.hint_bg },
