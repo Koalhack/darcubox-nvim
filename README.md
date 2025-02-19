@@ -17,7 +17,7 @@ Thanks for your interest!
 ### Supported Plugins
 
 - [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [LSP Diagnostics ](https://neovim.io/doc/user/lsp.html)
+- [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
 - [LSP Saga](https://github.com/nvimdev/lspsaga.nvim)
 - [Git](https://github.com/dinhhuy258/git.nvim)
 - [Git Signs](https://github.com/lewis6991/gitsigns.nvim)
@@ -37,6 +37,7 @@ Thanks for your interest!
   - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) ([Terminal-Icons](extras/powershell/Terminal-Icons))
 - [Sublime Text](https://www.sublimetext.com/docs/themes) ([sublime](extras/sublime))
 - [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
+- [Discord](https://discord.com) ([discord](extras/discord))
 
 ## Instalation
 
@@ -117,7 +118,7 @@ lualine.setup {
 }
 ```
 
-## Thanks to:
+## Thanks to
 
 ### Palette inspiration
 

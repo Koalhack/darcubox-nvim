@@ -1,0 +1,131 @@
+/**
+ * @name darcubox
+ * @author Koalhack
+ * @description A discord version of darcubox neovim theme
+ * @version 0.0.1
+ */
+
+/* Variables */
+
+.theme-dark {
+  /* Theme colors */
+  --contrast: #0a0d0f;
+  --contrast-rgb: 10, 13, 15;
+  --bg: #0e1214;
+  --bg-rgb: 14, 18, 20;
+  --fg: #d0c6a8;
+  --surface1: #25262c;
+  --surface2: #404146;
+
+  --black: #16181c;
+  --black-rgb: 22, 24, 28;
+  --sunshine: #ffd072;
+  --gold: #fb982e;
+  --gold-rgb: 251, 152, 46;
+  --ember: #dd4e21;
+  --ember-rgb: 221, 78, 33;
+  --sand: #e6a96b;
+  --meadow: #52a260;
+  --sapphire: #0f829a;
+  --silver: #8f8682;
+  --lilac: #cd80b9;
+  --alabaster: #efead9;
+
+  --error_bg: #9e2927;
+  --plus_bg: #32593d;
+  --info_bg: #484040;
+  --hint_bg: #263c50;
+
+  /* Overwrite default colors */
+  --background-primary: var(--bg);
+  --background-secondary: var(--contrast);
+  --background-secondary-alt: var(--contrast);
+  --background-tertiary: var(--constrast);
+  --background-accent: var(--bg);
+  --background-floating: var(--contrast);
+
+  --background-nested-floating: var(--contrast);
+
+  --bg-base-primary: var(--bg);
+  --bg-base-secondary: var(--contrast);
+  --bg-base-tertiary: var(--contrast);
+
+  --bg-mod-faint: var(--bg);
+
+  --bg-surface-overlay: var(--contrast);
+
+  --autocomplete-bg: var(--contrast);
+
+  --text-link: var(--sapphire);
+}
+
+/* ============ Scanlines =========== */
+
+body:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  pointer-events: none;
+
+  background: linear-gradient(hsla(0, 6%, 7%, 0) 50%, rgba(0, 0, 0, 0.25) 0),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.04),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  background-size:
+    100% 2px,
+    3px 100%;
+}
+
+/* ============ Top =========== */
+
+/* TitleBar */
+div:has([aria-label="Close"]) {
+  border-bottom: 1px solid var(--surface1);
+}
+
+/* ============ Left =========== */
+
+/* Server Sidebar */
+nav[aria-label="Servers sidebar"] {
+  border-right: 1px solid var(--surface1);
+}
+
+/* Seconds Sidebar */
+div[class*="sidebar"] > nav {
+  border-right: 1px solid var(--surface1);
+}
+
+/* Search Bar */
+div[class*="sidebar"] > nav header,
+div[class*="sidebar"] > nav > div:has(button) {
+  border-bottom: 1px solid var(--surface1);
+  height: 47px;
+}
+
+/* User Area */
+section[aria-label="User area"] {
+  border-top: 1px solid var(--surface1);
+  border-right: 1px solid var(--surface1);
+}
+
+/* ============ Center =========== */
+
+/* Channel header */
+section[aria-label="Channel header"] {
+  border-bottom: 1px solid var(--surface1);
+}
+
+/* Channel TextArea + Apps */
+[class*="themedBackground"],
+[aria-label="Apps"] {
+  background-color: var(--contrast);
+  border: 1px solid var(--surface1);
+}
