@@ -38,6 +38,9 @@ Thanks for your interest!
 - [Sublime Text](https://www.sublimetext.com/docs/themes) ([sublime](extras/sublime))
 - [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
 - [Discord](https://discord.com) ([discord](extras/discord))
+- [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) ([stylus](extras/stylus))
+  - [Reddit](https://reddit.com)
+  - [edclub](https://www.edclub.com)
 
 ## Instalation
 

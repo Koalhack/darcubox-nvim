@@ -1,0 +1,254 @@
+:root {
+  --contrast: #0a0d0f;
+  --contrast-rgb: 10, 13, 15;
+  --bg: #0e1214;
+  --bg-rgb: 14, 18, 20;
+  --fg: #d0c6a8;
+  --surface1: #25262c;
+  --surface2: #404146;
+
+  --black: #16181c;
+  --black-rgb: 22, 24, 28;
+  --sunshine: #ffd072;
+  --gold: #fb982e;
+  --gold-rgb: 251, 152, 46;
+  --ember: #dd4e21;
+  --ember-rgb: 221, 78, 33;
+  --sand: #e6a96b;
+  --sand-rgb: 230, 169, 107;
+  --meadow: #52a260;
+  --lime: #9cd750;
+  --sapphire: #0f829a;
+  --silver: #8f8682;
+  --lilac: #cd80b9;
+  --alabaster: #efead9;
+  --alabaster-rgb: 239, 234, 217;
+
+  --error: #eb5f6a;
+  --warning: #ff9b0a;
+  --plus: #5a9f81;
+  --info: #878080;
+  --hint: #287bde;
+
+  --error_bg: #9e2927;
+  --warning_bg: #42321b;
+  --plus_bg: #32593d;
+  --info_bg: #484040;
+  --hint_bg: #263c50;
+}
+
+body {
+  background: var(--bg) !important;
+  color: var(--silver);
+}
+
+/* ================= HEADER ====================== */
+.hdrlt {
+  background: var(--contrast);
+  border-bottom-color: var(--surface1);
+}
+
+/* Hamburger nav */
+.hdrlt .nav-icon > span {
+  background: var(--ember);
+}
+
+/* Header icons */
+/* Normal state */
+.hdrlt .header-options .header-item > span {
+  color: var(--surface2);
+}
+
+/* Hover state */
+.hdrlt .header-options .header-item > span:hover {
+  color: var(--gold);
+}
+
+/* Active state */
+.hdrlt .header-options .header-item.active > span {
+  color: var(--ember) !important;
+  border: none !important;
+}
+
+/* Active state border */
+.hdrlt .header-options .header-item.active > span:after {
+  background: var(--ember) !important;
+}
+
+/* Drop Banner */
+.drop-banner {
+  background: var(--gold) !important;
+  color: var(--black) !important;
+}
+
+/* ================= Header option (Settings) ====================== */
+
+/* Dropdown Panel */
+.hdrlt .header-options .header-item .dropdown-panel {
+  background: var(--contrast);
+  border-color: var(--surface1);
+  box-shadow: none !important;
+}
+
+/* Input switch button */
+/* Normal State */
+.hdrlt .settings-panel input.flip-switch + div {
+  background: var(--surface1);
+}
+
+.hdrlt .settings-panel input.flip-switch + div > i {
+  background: var(--surface2);
+  border-color: var(--silver);
+}
+
+/* Checked State */
+.hdrlt .settings-panel input.flip-switch:checked + div {
+  background: var(--gold);
+}
+
+.hdrlt .settings-panel input.flip-switch:checked + div > i {
+  border-color: var(--gold);
+}
+
+/* Text button */
+.hdrlt .settings-panel .selected-layout {
+  border-color: var(--gold) !important;
+}
+
+.settings-panel div.selectable:hover,
+.settings-panel div.selectable.selected,
+.settings-panel span.selectable:hover,
+.settings-panel span.selectable.selected {
+  color: var(--gold);
+  border-color: var(--gold) !important;
+}
+
+/* Dropdown */
+/* Normal State */
+.hdrlt .header-options .header-item .dropdown-panel .dropdown {
+  border-color: var(--gold) !important;
+}
+
+/* Active State */
+.hdrlt .settings-panel label:hover {
+  color: var(--gold);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background: var(--contrast);
+  border-color: var(--surface1) !important;
+}
+
+/* Break line */
+
+hr {
+  border-color: var(--surface1);
+}
+
+/* ================= Loading ====================== */
+
+.boxLoading-dark:after {
+  background: var(--ember) !important;
+}
+
+/* ================= TYPE ====================== */
+
+/* Text */
+._clr {
+  color: var(--surface1) !important;
+}
+
+/* Bottom Border */
+.tpmodes.normal {
+  border-color: var(--surface1) !important;
+}
+
+/* Active cursor */
+.normal_cursor {
+  background: rgba(var(--alabaster-rgb), 0.05) !important;
+  border-color: var(--gold) !important;
+}
+
+._fcs {
+  border-color: var(--surface2) !important;
+}
+
+/* Character State Style (Error, Valid, Error_Valid) */
+.tpmodes.normal .token_unit {
+  border-radius: 0px;
+}
+
+.typable .token_unit {
+  outline: none !important;
+}
+
+/* Valid */
+._vld {
+  color: var(--plus) !important;
+  background: var(--plus_bg) !important;
+}
+
+/* Error */
+._err {
+  color: var(--error) !important;
+  background: var(--error_bg) !important;
+}
+
+/* Corrected Error */
+._ervld {
+  color: var(--warning) !important;
+  background: var(--warning_bg) !important;
+}
+
+/* Tooltip */
+.pause-tooltip {
+  background: var(--gold) !important;
+  color: var(--black) !important;
+}
+
+.pause-tooltip:before {
+  border-top-color: var(--gold) !important;
+}
+
+/* Progress Bar */
+#progress-percent,
+#progress-dot {
+  background: var(--gold) !important;
+}
+
+/* ================= SCORE ====================== */
+
+.spelling-results-panel {
+  background: var(--bg) !important;
+}
+
+/* Bottom Nav bar */
+.bottom-nav-bar {
+  background: var(--contrast);
+  border-top-color: var(--surface1);
+}
+
+.navbar-content .btn.default {
+  background: var(--bg);
+  color: var(--silver);
+  border-color: var(--surface1) !important;
+}
+
+.navbar-content .btn.default:hover {
+  background: var(--surface1) !important;
+}
+
+.navbar-content .btn.primary {
+  background: var(--meadow) !important;
+  color: var(--contrast) !important;
+  border-color: transparent !important;
+}
+
+.navbar-content .btn.primary:hover {
+  background: var(--lime) !important;
+}
+
+.attempt-details .scroll-reminder {
+  border-color: var(--surface1) !important;
+}
