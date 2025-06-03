@@ -33,6 +33,8 @@ Thanks for your interest!
 - [Delta](https://github.com/dandavison/delta) ([delta](extras/delta))
 - [Fish](https://fishshell.com/docs/current/index.html) ([fish](extras/fish))
 - [Fish Themes](https://fishshell.com/docs/current/interactive.html#syntax-highlighting) ([fish_themes](extras/fish_themes))
+- [WezTerm](https://wezterm.org) ([wezterm](extras/wezterm))
+- [Ghostty](https://ghostty.org) ([ghostty](extras/ghostty))
 - [Powershell](https://learn.microsoft.com/fr-fr/powershell/) ([powershell](extras/powershell))
   - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) ([Terminal-Icons](extras/powershell/Terminal-Icons))
 - [Sublime Text](https://www.sublimetext.com/docs/themes) ([sublime](extras/sublime))
