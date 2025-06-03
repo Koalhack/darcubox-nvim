@@ -1,0 +1,63 @@
+[colors]
+foreground = "#d0c6a5"
+background = "#0e1214"
+cursor_bg = "#d0c6a5"
+cursor_border = "#d0c6a5"
+cursor_fg = "#0e1214"
+selection_bg = "#25262c"
+selection_fg = "#d0c6a5"
+split = "#dd4e21"
+compose_cursor = "#ff966c"
+scrollbar_thumb = "#404146"
+
+ansi = [
+  "#0a0d0f",
+  "#d01c26",
+  "#5a9f81",
+  "#e6a96b",
+  "#fb982e",
+  "#dd4e21",
+  "#287BDE",
+  "#8f8682",
+]
+brights = [
+  "#25262c",
+  "#eb5f6a",
+  "#9cd750",
+  "#e6a96b",
+  "#ffd072",
+  "#cd80b9",
+  "#0f829d",
+  "#d0c6a5",
+]
+
+[colors.tab_bar]
+inactive_tab_edge = "#1e2030"
+background = "#0e1214"
+
+[colors.tab_bar.active_tab]
+fg_color = "#1e2030"
+bg_color = "#dd4e21"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#545c7e"
+bg_color = "#2f334d"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#dd4e21"
+bg_color = "#2f334d"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#dd4e21"
+bg_color = "#0e1214"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#dd4e21"
+bg_color = "#0e1214"
+
+[metadata]
+aliases = []
+author = "koalhack"
+name = "darcubox"
