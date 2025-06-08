@@ -39,6 +39,7 @@ Thanks for your interest!
   - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) ([Terminal-Icons](extras/powershell/Terminal-Icons))
 - [Sublime Text](https://www.sublimetext.com/docs/themes) ([sublime](extras/sublime))
 - [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
+- [Flow Launcher](https://www.flowlauncher.com) ([flow-launcher](extras/flow-launcher))
 - [Discord](https://discord.com) ([discord](extras/discord))
 - [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) ([stylus](extras/stylus))
   - [Reddit](https://reddit.com)
