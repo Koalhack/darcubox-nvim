@@ -1,0 +1,293 @@
+:root {
+  --bg0: #0a0d0f;
+  --bg1: #0e1214;
+  --bg2: #16181c;
+  --bg3: #25262c;
+  --bg4: #484040;
+
+  --fg0: #d0c6a5;
+  --fg1: #efead9;
+  --fg2: #878080;
+  --fg3: #8f8682;
+  --fg4: #404146;
+
+  --black: #16181c;
+  --white: #efead9;
+  --gray: #8f8682;
+  --red: #d01c26;
+  --orange: #fb982e;
+  --yellow: #e6a96b;
+  --green: #52a260;
+  --aqua: #263c50;
+  --blue: #0f829d;
+  --magenta: #cd80b9;
+
+  --bright_black: #665c54;
+  --bright_white: #bdae93;
+  --bright_red: #fb4934;
+  --bright_orange: #dd4e21;
+  --bright_yellow: #ffd072;
+  --bright_green: #9cd750;
+  --bright_aqua: #287bde;
+  --bright_blue: #0f829d;
+  --bright_magenta: #cd80b9;
+
+  --darkness_accent: #25262c;
+  --dark_accent: #404146;
+  --accent: #fb982e;
+  --bright_accent: #dd4e21;
+
+  --color-ansi-black: var(--black) !important;
+  --color-ansi-white: var(--white) !important;
+  --color-ansi-gray: var(--gray) !important;
+  --color-ansi-red: var(--red) !important;
+  --color-ansi-orange: var(--orange) !important;
+  --color-ansi-yellow: var(--yellow) !important;
+  --color-ansi-green: var(--green) !important;
+  --color-ansi-cyan: var(--aqua) !important;
+  --color-ansi-blue: var(--blue) !important;
+  --color-ansi-magenta: var(--magenta) !important;
+
+  /*=== === === Background Colors === === ===*/
+  --bgColor-default: var(--bg0) !important;
+  --bgColor-muted: var(--bg1) !important;
+  --bgColor-inset: var(--bg1) !important;
+  --bgColor-emphasis: var(--bg4) !important;
+  --bgColor-inverse: var(--fg0) !important;
+  --bgColor-white: var(--fg0) !important;
+  --bgColor-black: var(--bg0) !important;
+  --bgColor-disabled: var(--gray) !important;
+  --bgColor-transparent: #00000000 !important;
+  --bgColor-neutral-muted: #9283741a !important;
+  --bgColor-neutral-emphasis: var(--gray) !important;
+  --bgColor-accent-muted: #4184e41a !important;
+  --bgColor-accent-emphasis: var(--accent) !important;
+  --bgColor-success-muted: #689d6a1a !important;
+  --bgColor-success-emphasis: var(--bright_aqua) !important;
+  --bgColor-attention-muted: #d7992126 !important;
+  --bgColor-attention-emphasis: var(--bright_yellow) !important;
+  --bgColor-severe-muted: #d65d0e1a !important;
+  --bgColor-severe-emphasis: var(--bright_orange) !important;
+  --bgColor-danger-muted: #cc241d1a !important;
+  --bgColor-danger-emphasis: var(--bright_red) !important;
+  --bgColor-open-muted: #4585881a !important;
+  --bgColor-open-emphasis: var(--bright_blue) !important;
+  --bgColor-closed-muted: # !important;
+  --bgColor-closed-emphasis: var(--bright_red) !important;
+  --bgColor-done-muted: # !important;
+  --bgColor-done-emphasis: transparent !important;
+  --bgColor-upsell-muted: # !important;
+  --bgColor-upsell-emphasis: var(--accent) !important;
+  --bgColor-sponsors-muted: #b162861a !important;
+  --bgColor-sponsors-emphasis: var(--bright_magenta) !important;
+
+  /*=== === === Foreground Colors === === ===*/
+  --fgColor-default: var(--fg0) !important;
+  --fgColor-muted: var(--fg2) !important;
+  --fgColor-onEmphasis: var(--fg0) !important;
+  --fgColor-white: var(--fg0) !important;
+  --fgColor-black: var(--bg0) !important;
+  --fgColor-disabled: var(--gray) !important;
+  --fgColor-link: var(--bright_orange) !important;
+  --fgColor-neutral: var(--gray) !important;
+  --fgColor-accent: var(--accent) !important;
+  --fgColor-success: var(--bright_green) !important;
+  --fgColor-attention: var(--bright_yellow) !important;
+  --fgColor-severe: var(--bright_orange) !important;
+  --fgColor-danger: var(--bright_red) !important;
+  --fgColor-open: var(--magenta) !important;
+  --fgColor-closed: var(--bright_red) !important;
+  --fgColor-done: var(--bright_blue) !important;
+  --fgColor-upsell: var(--bright_blue) !important;
+  --fgColor-sponsors: var(--bright_aqua) !important;
+
+  /*=== === === Avatar Colors === === ===*/
+  --avatar-bgColor: #bdaf931a !important;
+  --avatar-borderColor: #bdaf931a !important;
+  --avatar-shadow: -2px -2px 0 #1d2020 !important;
+  --avatarStack-fade-bgColor-default: #686355 !important;
+  --avatarStack-fade-bgColor-muted: #535046 !important;
+
+  /*=== === === Calendar Colors === === ===*/
+  --color-calendar-halloween-graph-day-L1-bg: var(--darkness_accent) !important;
+  --color-calendar-halloween-graph-day-L2-bg: var(--dark_accent) !important;
+  --color-calendar-halloween-graph-day-L3-bg: var(--accent) !important;
+  --color-calendar-halloween-graph-day-L4-bg: var(--bright_accent) !important;
+
+  --color-calendar-winter-graph-day-L1-bg: var(--darkness_accent) !important;
+  --color-calendar-winter-graph-day-L2-bg: var(--dark_accent) !important;
+  --color-calendar-winter-graph-day-L3-bg: var(--accent) !important;
+  --color-calendar-winter-graph-day-L4-bg: var(--bright_accent) !important;
+
+  --color-calendar-graph-day-bg: var(--bg0) !important;
+  --color-calendar-graph-day-border: transparent !important;
+  --color-calendar-graph-day-L1-bg: var(--darkness_accent) !important;
+  --color-calendar-graph-day-L2-bg: var(--dark_accent) !important;
+  --color-calendar-graph-day-L3-bg: var(--accent) !important;
+  --color-calendar-graph-day-L4-bg: var(--bright_accent) !important;
+  --color-calendar-graph-day-L1-border: transparent !important;
+  --color-calendar-graph-day-L2-border: transparent !important;
+  --color-calendar-graph-day-L3-border: transparent !important;
+  --color-calendar-graph-day-L4-border: transparent !important;
+
+  /*=== === === Border Colors === === ===*/
+  --borderColor-default: var(--bg4) !important;
+  --borderColor-muted: #7c6f64b3;
+  --borderColor-emphasis: var(--fg4);
+  --borderColor-disabled: #504945b3;
+  --borderColor-transparent: #00000000;
+  --borderColor-neutral-muted: #665c5466;
+  --borderColor-neutral-emphasis: var(--bg3);
+  --borderColor-accent-muted: #83a59866;
+  --borderColor-accent-emphasis: var(--accent) !important;
+  --borderColor-success-muted: #8ec07c66;
+  --borderColor-success-emphasis: var(--bright_cyan) !important;
+  --borderColor-attention-muted: #fabd2f66;
+  --borderColor-attention-emphasis: var(--bright_yellow) !important;
+  --borderColor-severe-muted: #fe801966;
+  --borderColor-severe-emphasis: var(--bright_orange) !important;
+  --borderColor-danger-muted: #e5534b66;
+  --borderColor-danger-emphasis: var(--bright_red) !important;
+  --borderColor-open-muted: var(--color-ansi-blue);
+  --borderColor-open-emphasis: var(--color-ansi-blue) !important;
+  --borderColor-closed-muted: var(--color-ansi-red-bright) !important;
+  --borderColor-closed-emphasis: var(--color-ansi-red-bright) !important;
+  --borderColor-done-muted: var(--accent) !important;
+  --borderColor-done-emphasis: var(--accent) !important;
+  --borderColor-upsell-muted: var(--accent) !important;
+  --borderColor-upsell-emphasis: var(--accent) !important;
+  --borderColor-sponsors-muted: var(--color-accent-bright) !important;
+  --borderColor-sponsors-emphasis: var(--color-accent-bright) !important;
+
+  /*=== === === Buttons Colors === === ===*/
+  --button-default-fgColor-rest: var(--fg1) !important;
+  --button-default-bgColor-rest: var(--bg3) !important;
+  --button-default-bgColor-hover: var(--dark_accent) !important;
+  --button-default-bgColor-active: var(--dark_accent) !important;
+  --button-default-bgColor-selected: #3e3c37 !important;
+  --button-default-bgColor-disabled: #373e47b3 !important;
+  --button-default-borderColor-rest: var(--bg3) !important;
+  --button-default-borderColor-hover: var(--fg3) !important;
+  --button-default-borderColor-active: #6a6453 !important;
+  --button-default-borderColor-disabled: #3d3f42b3 !important;
+  --button-default-shadow-resting: 0px 0px 0px 0px #000000 !important;
+
+  --button-primary-fgColor-rest: var(--fg1) !important;
+  --button-primary-fgColor-disabled: #bdaf9380 !important;
+  --button-primary-iconColor-rest: var(--fg0) !important;
+  --button-primary-bgColor-rest: var(--accent) !important;
+  --button-primary-bgColor-hover: var(--bright_accent) !important;
+  --button-primary-bgColor-active: var(--accent) !important;
+  --button-primary-bgColor-disabled: #a5a64e99 !important;
+  --button-primary-borderColor-rest: var(--accent) !important;
+  --button-primary-borderColor-hover: #bdaf931a !important;
+  --button-primary-borderColor-active: #bdaf931a !important;
+  --button-primary-borderColor-disabled: #bdaf931a !important;
+  --button-primary-shadow-selected: 0 0 transparent !important;
+
+  --button-invisible-fgColor-rest: var(--fg0) !important;
+  --button-invisible-fgColor-hover: var(--fg0) !important;
+  --button-invisible-fgColor-disabled: var(--fg3) !important;
+  --button-invisible-iconColor-rest: var(--fg0) !important;
+  --button-invisible-iconColor-hover: var(--fg0) !important;
+  --button-invisible-iconColor-disabled: var(--fg3) !important;
+  --button-invisible-bgColor-rest: #00000000 !important;
+  --button-invisible-bgColor-hover: #686355 !important;
+  --button-invisible-bgColor-active: #4f4945 !important;
+  --button-invisible-bgColor-disabled: #373e47b3 !important;
+  --button-invisible-borderColor-rest: #00000000 !important;
+  --button-invisible-borderColor-hover: #0000 !important;
+  --button-invisible-borderColor-disabled: var(--bg3) !important;
+
+  --button-outline-fgColor-rest: var(--bright_aqua) !important;
+  --button-outline-fgColor-hover: var(--bright_aqua) !important;
+  --button-outline-fgColor-active: var(--fg0) !important;
+  --button-outline-fgColor-disabled: var(--fg3) !important;
+  --button-outline-bgColor-rest: var(--bg2) !important;
+  --button-outline-bgColor-hover: var(--bg3) !important;
+  --button-outline-bgColor-active: var(--bg3) !important;
+  --button-outline-bgColor-disabled: var(--bg0) !important;
+  --button-outline-borderColor-hover: var(--bg2) !important;
+  --button-outline-borderColor-selected: var(--bg3) !important;
+  --button-outline-shadow-selected: 0 0 transparent !important;
+
+  --button-danger-fgColor-rest: var(--bright_red) !important;
+  --button-danger-fgColor-hover: var(--fg0) !important;
+  --button-danger-fgColor-active: var(--fg0) !important;
+  --button-danger-fgColor-disabled: #ebdbb280 !important;
+  --button-danger-iconColor-rest: var(--red) !important;
+  --button-danger-iconColor-hover: var(--fg0) !important;
+  --button-danger-bgColor-rest: var(--red) !important;
+  --button-danger-bgColor-hover: var(--red) !important;
+  --button-danger-bgColor-active: var(--bright_red) !important;
+  --button-danger-bgColor-disabled: #504945b3 !important;
+  --button-danger-borderColor-rest: var(--fg4) !important;
+  --button-danger-borderColor-hover: var(--fg0) !important;
+  --button-danger-borderColor-active: var(--fg0) !important;
+  --button-danger-shadow-selected: 0 0 transparent !important;
+
+  --button-inactive-fgColor: var(--color-fg-default) !important;
+  --button-inactive-bgColor: var(--color-bg3-default) !important;
+  --button-star-iconColor: var(--color-ansi-yellow) !important;
+
+  --codeMirror-fgColor: var(--bright_aqua) !important;
+  --codeMirror-bgColor: var(--bg0) !important;
+  --codeMirror-gutters-bgColor: var(--bg0_h) !important;
+  --codeMirror-gutterMarker-fgColor-default: var(--bg0) !important;
+  --codeMirror-gutterMarker-fgColor-muted: var(--fg4) !important;
+  --codeMirror-lineNumber-fgColor: var(--gray) !important;
+  --codeMirror-cursor-fgColor: var(--fg0) !important;
+  --codeMirror-selection-bgColor: #a5a64e66 !important;
+  --codeMirror-activeline-bgColor: #b4b64933 !important;
+  --codeMirror-matchingBracket-fgColor: var(--bright_aqua) !important;
+  --codeMirror-lines-bgColor: var(--bg0) !important;
+  --codeMirror-syntax-fgColor-comment: var(--gray) !important;
+  --codeMirror-syntax-fgColor-constant: var(--bright_orange) !important;
+  --codeMirror-syntax-fgColor-entity: var(--bright_magenta) !important;
+  --codeMirror-syntax-fgColor-keyword: var(--bright_red) !important;
+  --codeMirror-syntax-fgColor-storage: var(--bright_red) !important;
+  --codeMirror-syntax-fgColor-string: var(--bright_yellow) !important;
+  --codeMirror-syntax-fgColor-support: var(--bright_magenta) !important;
+  --codeMirror-syntax-fgColor-variable: var(--bright_orange) !important;
+
+  --color-prettylights-syntax-comment: var(--gray) !important;
+  --color-prettylights-syntax-constant: var(--bright_orange) !important;
+  --color-prettylights-syntax-constant-other-reference-link: var(
+    --bright_blue
+  ) !important;
+  --color-prettylights-syntax-entity: var(--bright_aqua) !important;
+  --color-prettylights-syntax-storage-modifier-import: var(
+    --bright_orange
+  ) !important;
+  --color-prettylights-syntax-entity-tag: var(--bright_aqua) !important;
+  --color-prettylights-syntax-keyword: var(--bright_red) !important;
+  --color-prettylights-syntax-string: var(--bright_yellow) !important;
+  --color-prettylights-syntax-variable: var(--bright_red) !important;
+  --color-prettylights-syntax-brackethighlighter-unmatched: var(
+    --red
+  ) !important;
+  --color-prettylights-syntax-brackethighlighter-angle: var(--black);
+  --color-prettylights-syntax-invalid-illegal-text: var(--fg0) !important;
+  --color-prettylights-syntax-invalid-illegal-bg: var(--red) !important;
+  --color-prettylights-syntax-carriage-return-text: var(--fg0) !important;
+  --color-prettylights-syntax-carriage-return-bg: var(--bright_red) !important;
+  --color-prettylights-syntax-string-regexp: var(--bright_aqua) !important;
+  --color-prettylights-syntax-markup-list: var(--bg3) !important;
+  --color-prettylights-syntax-markup-heading: var(--bg2) !important;
+  --color-prettylights-syntax-markup-italic: var(--bg2) !important;
+  --color-prettylights-syntax-markup-bold: var(--bg2) !important;
+  --color-prettylights-syntax-markup-deleted-text: var(
+    --bright_orange
+  ) !important;
+  --color-prettylights-syntax-markup-deleted-bg: var(--fg0) !important;
+  --color-prettylights-syntax-markup-inserted-text: var(--aqua) !important;
+  --color-prettylights-syntax-markup-inserted-bg: var(--fg0) !important;
+  --color-prettylights-syntax-markup-changed-text: var(--bright_red) !important;
+  --color-prettylights-syntax-markup-changed-bg: var(
+    --bright_magenta
+  ) !important;
+  --color-prettylights-syntax-markup-ignored-text: var(--fg0) !important;
+  --color-prettylights-syntax-markup-ignored-bg: var(--bright_blue) !important;
+  --color-prettylights-syntax-meta-diff-range: var(--bright_blue) !important;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: var(--gray) !important;
+}
