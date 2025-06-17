@@ -11,7 +11,7 @@
   --fg3: #8f8682;
   --fg4: #404146;
 
-  --black: #16181c;
+  --black: #16181C;
   --white: #efead9;
   --gray: #8f8682;
   --red: #d01c26;
@@ -60,8 +60,8 @@
   --bgColor-transparent: #00000000 !important;
   --bgColor-neutral-muted: #9283741a !important;
   --bgColor-neutral-emphasis: var(--gray) !important;
-  --bgColor-accent-muted: #4184e41a !important;
-  --bgColor-accent-emphasis: var(--accent) !important;
+  --bgColor-accent-muted: var(--bg2) !important;
+  --bgColor-accent-emphasis: var(--bg3) !important;
   --bgColor-success-muted: #689d6a1a !important;
   --bgColor-success-emphasis: var(--bright_aqua) !important;
   --bgColor-attention-muted: #d7992126 !important;
@@ -165,11 +165,11 @@
   --button-default-bgColor-hover: var(--dark_accent) !important;
   --button-default-bgColor-active: var(--dark_accent) !important;
   --button-default-bgColor-selected: #3e3c37 !important;
-  --button-default-bgColor-disabled: #373e47b3 !important;
+  --button-default-bgColor-disabled: var(--bg3) !important;
   --button-default-borderColor-rest: var(--bg3) !important;
   --button-default-borderColor-hover: var(--fg3) !important;
   --button-default-borderColor-active: #6a6453 !important;
-  --button-default-borderColor-disabled: #3d3f42b3 !important;
+  --button-default-borderColor-disabled: transparent !important;
   --button-default-shadow-resting: 0px 0px 0px 0px #000000 !important;
 
   --button-primary-fgColor-rest: var(--fg1) !important;
@@ -232,7 +232,7 @@
 
   --codeMirror-fgColor: var(--bright_aqua) !important;
   --codeMirror-bgColor: var(--bg0) !important;
-  --codeMirror-gutters-bgColor: var(--bg0_h) !important;
+  --codeMirror-gutters-bgColor: var(--bg0) !important;
   --codeMirror-gutterMarker-fgColor-default: var(--bg0) !important;
   --codeMirror-gutterMarker-fgColor-muted: var(--fg4) !important;
   --codeMirror-lineNumber-fgColor: var(--gray) !important;
@@ -242,50 +242,41 @@
   --codeMirror-matchingBracket-fgColor: var(--bright_aqua) !important;
   --codeMirror-lines-bgColor: var(--bg0) !important;
   --codeMirror-syntax-fgColor-comment: var(--gray) !important;
-  --codeMirror-syntax-fgColor-constant: var(--bright_orange) !important;
-  --codeMirror-syntax-fgColor-entity: var(--bright_magenta) !important;
-  --codeMirror-syntax-fgColor-keyword: var(--bright_red) !important;
-  --codeMirror-syntax-fgColor-storage: var(--bright_red) !important;
-  --codeMirror-syntax-fgColor-string: var(--bright_yellow) !important;
+  --codeMirror-syntax-fgColor-constant: var(--orange) !important;
+  --codeMirror-syntax-fgColor-entity: var(--fg0) !important;
+  --codeMirror-syntax-fgColor-keyword: var(--bright_orange) !important;
+  --codeMirror-syntax-fgColor-storage: var(--fg0) !important;
+  --codeMirror-syntax-fgColor-string: var(--green) !important;
   --codeMirror-syntax-fgColor-support: var(--bright_magenta) !important;
-  --codeMirror-syntax-fgColor-variable: var(--bright_orange) !important;
+  --codeMirror-syntax-fgColor-variable: var(--fg0) !important;
 
   --color-prettylights-syntax-comment: var(--gray) !important;
-  --color-prettylights-syntax-constant: var(--bright_orange) !important;
-  --color-prettylights-syntax-constant-other-reference-link: var(
-    --bright_blue
-  ) !important;
-  --color-prettylights-syntax-entity: var(--bright_aqua) !important;
-  --color-prettylights-syntax-storage-modifier-import: var(
-    --bright_orange
-  ) !important;
-  --color-prettylights-syntax-entity-tag: var(--bright_aqua) !important;
-  --color-prettylights-syntax-keyword: var(--bright_red) !important;
-  --color-prettylights-syntax-string: var(--bright_yellow) !important;
-  --color-prettylights-syntax-variable: var(--bright_red) !important;
-  --color-prettylights-syntax-brackethighlighter-unmatched: var(
-    --red
-  ) !important;
+  --color-prettylights-syntax-constant: var(--orange) !important;
+  --color-prettylights-syntax-constant-other-reference-link: var(--bright_blue) !important;
+  --color-prettylights-syntax-entity: var(--orange) !important;
+  --color-prettylights-syntax-storage-modifier-import: var(--bright_blue) !important;
+  --color-prettylights-syntax-entity-tag: var(--fg0) !important;
+  --color-prettylights-syntax-keyword: var(--bright_orange) !important;
+  --color-prettylights-syntax-string: var(--green) !important;
+  --color-prettylights-syntax-variable: var(--bright_orange) !important;
+  --color-prettylights-syntax-brackethighlighter-unmatched: var(--red) !important;
   --color-prettylights-syntax-brackethighlighter-angle: var(--black);
   --color-prettylights-syntax-invalid-illegal-text: var(--fg0) !important;
   --color-prettylights-syntax-invalid-illegal-bg: var(--red) !important;
   --color-prettylights-syntax-carriage-return-text: var(--fg0) !important;
   --color-prettylights-syntax-carriage-return-bg: var(--bright_red) !important;
   --color-prettylights-syntax-string-regexp: var(--bright_aqua) !important;
+
   --color-prettylights-syntax-markup-list: var(--bg3) !important;
   --color-prettylights-syntax-markup-heading: var(--bg2) !important;
   --color-prettylights-syntax-markup-italic: var(--bg2) !important;
   --color-prettylights-syntax-markup-bold: var(--bg2) !important;
-  --color-prettylights-syntax-markup-deleted-text: var(
-    --bright_orange
-  ) !important;
+  --color-prettylights-syntax-markup-deleted-text: var(--bright_orange) !important;
   --color-prettylights-syntax-markup-deleted-bg: var(--fg0) !important;
   --color-prettylights-syntax-markup-inserted-text: var(--aqua) !important;
   --color-prettylights-syntax-markup-inserted-bg: var(--fg0) !important;
   --color-prettylights-syntax-markup-changed-text: var(--bright_red) !important;
-  --color-prettylights-syntax-markup-changed-bg: var(
-    --bright_magenta
-  ) !important;
+  --color-prettylights-syntax-markup-changed-bg: var(--bright_magenta) !important;
   --color-prettylights-syntax-markup-ignored-text: var(--fg0) !important;
   --color-prettylights-syntax-markup-ignored-bg: var(--bright_blue) !important;
   --color-prettylights-syntax-meta-diff-range: var(--bright_blue) !important;
