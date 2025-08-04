@@ -4,6 +4,7 @@ function M.setup()
   local p = require("darcubox.palette").palette
   local config = require("darcubox").config
   local bg = config.options.transparent and "NONE" or p.bg
+  local contrastbg = config.options.transparent and "NONE" or p.contrast
 
   -- stylua: ignore
   local groups = {
@@ -35,11 +36,11 @@ function M.setup()
     MsgSeparator                         = { fg = p.fg, bg = bg },
     NonText                              = { fg = p.surface2 },
     Normal                               = { fg = p.fg, bg = bg,}, -- Normal text and background color
-    NormalSB                             = { fg = p.surface2, bg = p.contrast }, -- normal text in sidebar
-    NormalNC                             = { fg = p.surface1, bg = p.contrast }, -- normal text in non-current windows
+    NormalSB                             = { fg = p.surface2, bg = contrastbg }, -- normal text in sidebar
+    NormalNC                             = { fg = p.surface1, bg = contrastbg }, -- normal text in non-current windows
     NormalFloat                          = { link = "Normal" }, -- Normal text and background color
-    FloatBorder                          = { fg = p.sand, bg = p.contrast },
-    FloatTitle                           = { fg = p.alabaster, bg = p.contrast },
+    FloatBorder                          = { fg = p.sand, bg = contrastbg },
+    FloatTitle                           = { fg = p.alabaster, bg = contrastbg },
     Pmenu                                = { fg = p.fg, bg = p.surface1 },
     PmenuSel                             = { fg = p.sunshine, bg = p.surface2 },
     PmenuSbar                            = { fg = p.silver, bg = p.surface2 },
