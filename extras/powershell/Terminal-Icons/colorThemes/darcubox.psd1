@@ -2,8 +2,8 @@
     Name  = 'darcubox'
     Types = @{
         Directories = @{
-            symlink  = '263c50'
-            junction = '263c50'
+            symlink  = '287bde'
+            junction = '287bde'
             WellKnown = @{
                 docs                    = '0f829d'
                 documents               = '0f829d'
@@ -18,43 +18,43 @@
                 shortcuts               = 'eb5f6a'
                 links                   = 'eb5f6a'
                 fonts                   = 'eb5f6a'
-                images                  = '5a9f81'
-                photos                  = '5a9f81'
-                pictures                = '5a9f81'
+                images                  = '9cd750'
+                photos                  = '9cd750'
+                pictures                = '9cd750'
                 videos                  = 'e6a96b'
                 movies                  = 'e6a96b'
                 media                   = 'efead9'
-                music                   = '4d2d2c'
-                songs                   = '4d2d2c'
+                music                   = 'ff9b0a'
+                songs                   = 'ff9b0a'
                 onedrive                = 'efead9'
                 downloads               = 'efead9'
-                src                     = '5a9f81'
-                development             = '5a9f81'
-                projects                = '5a9f81'
+                src                     = '9cd750'
+                development             = '9cd750'
+                projects                = '9cd750'
                 bin                     = '0f829d'
                 tests                   = '0f829d'
                 windows                 = '0f829d'
                 users                   = 'efead9'
                 favorites               = 'ffd072'
-                output                  = '5a9f81'
-                '.config'               = '5a9f81'
-                '.cache'                = '5a9f81'
+                output                  = '9cd750'
+                '.config'               = '9cd750'
+                '.cache'                = '9cd750'
                 '.vscode'               = '0f829d'
                 '.vscode-insiders'      = '0f829d'
                 '.git'                  = 'eb5f6a'
                 '.github'               = 'efead9'
                 'github'                = 'efead9'
-                'node_modules'          = '5a9f81'
-                '.terraform'            = '263c50'
+                'node_modules'          = '9cd750'
+                '.terraform'            = '287bde'
                 '.azure'                = '0f829d'
                 '.aws'                  = 'e6a96b'
-                '.kube'                 = '263c50'
-                '.docker'               = '263c50'
+                '.kube'                 = '287bde'
+                '.docker'               = '287bde'
             }
         }
         Files = @{
-            symlink  = '263c50'
-            junction = '263c50'
+            symlink  = '287bde'
+            junction = '287bde'
             WellKnown = @{
                 '.gitattributes'                = 'eb5f6a'
                 '.gitconfig'                    = 'eb5f6a'
@@ -65,13 +65,13 @@
                 'LICENSE'                       = 'eb5f6a'
                 'LICENSE.md'                    = 'eb5f6a'
                 'LICENSE.txt'                   = 'eb5f6a'
-                'CHANGELOG.md'                  = '5a9f81'
-                'CHANGELOG.txt'                 = '5a9f81'
-                'CHANGELOG'                     = '5a9f81'
+                'CHANGELOG.md'                  = '9cd750'
+                'CHANGELOG.txt'                 = '9cd750'
+                'CHANGELOG'                     = '9cd750'
                 'README.md'                     = '0f829d'
                 'README.txt'                    = '0f829d'
                 'README'                        = '0f829d'
-                '.DS_Store'                     = '25262c'
+                '.DS_Store'                     = '404146'
                 '.tsbuildinfo'                  = 'e6a96b'
                 '.jscsrc'                       = 'e6a96b'
                 '.jshintrc'                     = 'e6a96b'
@@ -81,7 +81,7 @@
                 '.jsbeautifyrc'                 = 'e6a96b'
                 '.esformatter'                  = 'e6a96b'
                 'cdp.pid'                       = 'e6a96b'
-                '.htaccess'                     = '5a9f81'
+                '.htaccess'                     = '9cd750'
                 '.jshintignore'                 = '0f829d'
                 '.buildignore'                  = '0f829d'
                 '.mrconfig'                     = '0f829d'
@@ -92,12 +92,12 @@
                 'favicon.ico'                   = 'ffd072'
                 '.travis.yml'                   = 'e6a96b'
                 '.gitlab-ci.yml'                = 'eb5f6a'
-                '.jenkinsfile'                  = '263c50'
-                'jenkinsfile'                   = '263c50'
+                '.jenkinsfile'                  = '287bde'
+                'jenkinsfile'                   = '287bde'
                 'bitbucket-pipelines.yml'       = '0f829d'
                 'bitbucket-pipelines.yaml'      = '0f829d'
                 '.azure-pipelines.yml'          = '0f829d'
-                'makefile'                      = '263c50'
+                'makefile'                      = '287bde'
 
                 # Firebase
                 'firebase.json'                 = 'e6a96b'
@@ -112,21 +112,21 @@
                 'code_of_conduct.txt'           = 'efead9'
 
                 # Docker
-                'Dockerfile'                    = '263c50'
-                'docker-compose.yml'            = '263c50'
-                'docker-compose.yaml'           = '263c50'
-                'docker-compose.dev.yml'        = '263c50'
-                'docker-compose.local.yml'      = '263c50'
-                'docker-compose.ci.yml'         = '263c50'
-                'docker-compose.override.yml'   = '263c50'
-                'docker-compose.staging.yml'    = '263c50'
-                'docker-compose.prod.yml'       = '263c50'
-                'docker-compose.production.yml' = '263c50'
-                'docker-compose.test.yml'       = '263c50'
+                'Dockerfile'                    = '287bde'
+                'docker-compose.yml'            = '287bde'
+                'docker-compose.yaml'           = '287bde'
+                'docker-compose.dev.yml'        = '287bde'
+                'docker-compose.local.yml'      = '287bde'
+                'docker-compose.ci.yml'         = '287bde'
+                'docker-compose.override.yml'   = '287bde'
+                'docker-compose.staging.yml'    = '287bde'
+                'docker-compose.prod.yml'       = '287bde'
+                'docker-compose.production.yml' = '287bde'
+                'docker-compose.test.yml'       = '287bde'
 
                 # Vue
-                'vue.config.js'                 = '25262c'
-                'vue.config.ts'                 = '25262c'
+                'vue.config.js'                 = '404146'
+                'vue.config.ts'                 = '404146'
 
                 # Gulp
                 'gulpfile.js'                   = 'eb5f6a'
@@ -136,10 +136,10 @@
                 'gruntfile.js'                  = 'eb5f6a'
 
                 # NodeJS
-                'package.json'                  = '5a9f81'
-                'package-lock.json'             = '5a9f81'
-                '.nvmrc'                        = '5a9f81'
-                '.esmrc'                        = '5a9f81'
+                'package.json'                  = '9cd750'
+                'package-lock.json'             = '9cd750'
+                '.nvmrc'                        = '9cd750'
+                '.esmrc'                        = '9cd750'
 
                 # NPM
                 '.nmpignore'                    = '0f829d'
@@ -151,10 +151,10 @@
                 'authors.txt'                   = 'eb5f6a'
 
                 # Terraform
-                '.terraform.lock.hcl'           = '263c50'
+                '.terraform.lock.hcl'           = '287bde'
 
                 # Gradle
-                'gradlew'                       = '5a9f81'
+                'gradlew'                       = '9cd750'
             }
             # Archive files
             '.7z'                   = 'e6a96b'
@@ -171,8 +171,8 @@
             '.tgz'                  = 'e6a96b'
 
             # Executable things
-            '.bat'                  = '5a9f81'
-            '.cmd'                  = '5a9f81'
+            '.bat'                  = '9cd750'
+            '.cmd'                  = '9cd750'
             '.exe'                  = '0f829d'
             '.pl'                   = 'cd80b9'
 
@@ -204,16 +204,16 @@
             '.java'                 = 'e6a96b'
             '.jar'                  = 'e6a96b'
 
-            '.gradle'               = '5a9f81'
+            '.gradle'               = '9cd750'
 
             # Python
-            '.py'                   = '263c50'
-            '.ipynb'                = '263c50'
+            '.py'                   = '5a9f81'
+            '.ipynb'                = '5a9f81'
 
 
             # React
-            '.jsx'                  = '263c50'
-            '.tsx'                  = '263c50'
+            '.jsx'                  = '287bde'
+            '.tsx'                  = '287bde'
 
             # Typescript
             '.ts'                   = 'ffd072'
@@ -223,50 +223,50 @@
 
             # Importable Data files
             '.clixml'               = '0f829d'
-            '.csv'                  = '5a9f81'
-            '.tsv'                  = '5a9f81'
+            '.csv'                  = '9cd750'
+            '.tsv'                  = '9cd750'
 
             # Settings
-            '.ini'                  = '263c50'
-            '.dlc'                  = '263c50'
-            '.config'               = '263c50'
-            '.conf'                 = '263c50'
-            '.properties'           = '263c50'
-            '.prop'                 = '263c50'
-            '.settings'             = '263c50'
-            '.option'               = '263c50'
-            '.reg'                  = '263c50'
-            '.props'                = '263c50'
-            '.toml'                 = '263c50'
-            '.prefs'                = '263c50'
-            '.sln.dotsettings'      = '263c50'
-            '.sln.dotsettings.user' = '263c50'
-            '.cfg'                  = '263c50'
+            '.ini'                  = '287bde'
+            '.dlc'                  = '287bde'
+            '.config'               = '287bde'
+            '.conf'                 = '287bde'
+            '.properties'           = '287bde'
+            '.prop'                 = '287bde'
+            '.settings'             = '287bde'
+            '.option'               = '287bde'
+            '.reg'                  = '287bde'
+            '.props'                = '287bde'
+            '.toml'                 = '287bde'
+            '.prefs'                = '287bde'
+            '.sln.dotsettings'      = '287bde'
+            '.sln.dotsettings.user' = '287bde'
+            '.cfg'                  = '287bde'
 
             # Source Files
             '.c'                    = 'efead9'
             '.cpp'                  = 'efead9'
             '.cxx'                  = 'efead9'
             '.c++'                  = 'efead9'
-            '.go'                   = '263c50'
+            '.go'                   = '0f829d'
             '.php'                  = 'cd80b9'
 
             # Visual Studio
-            '.csproj'               = '4d2d2c'
-            '.ruleset'              = '4d2d2c'
-            '.sln'                  = '4d2d2c'
-            '.slnf'                 = '4d2d2c'
-            '.suo'                  = '4d2d2c'
-            '.vb'                   = '4d2d2c'
-            '.vbs'                  = '4d2d2c'
-            '.vcxitems'             = '4d2d2c'
-            '.vcxitems.filters'     = '4d2d2c'
-            '.vcxproj'              = '4d2d2c'
-            '.vsxproj.filters'      = '4d2d2c'
+            '.csproj'               = 'ff9b0a'
+            '.ruleset'              = 'ff9b0a'
+            '.sln'                  = 'ff9b0a'
+            '.slnf'                 = 'ff9b0a'
+            '.suo'                  = 'ff9b0a'
+            '.vb'                   = 'ff9b0a'
+            '.vbs'                  = 'ff9b0a'
+            '.vcxitems'             = 'ff9b0a'
+            '.vcxitems.filters'     = 'ff9b0a'
+            '.vcxproj'              = 'ff9b0a'
+            '.vsxproj.filters'      = 'ff9b0a'
 
             # CSharp
-            '.cs'                   = '263c50'
-            '.csx'                  = '263c50'
+            '.cs'                   = '287bde'
+            '.csx'                  = '287bde'
 
             # Haskell
             '.hs'                   = 'cd80b9'
@@ -275,20 +275,20 @@
             '.xaml'                 = '0f829d'
 
             # Rust
-            '.rs'                   = 'eb5f6a'
+            '.rs'                   = 'fb982e'
 
             # Database
-            '.pdb'                  = 'ffd072'
-            '.sql'                  = 'ffd072'
-            '.pks'                  = 'ffd072'
-            '.pkb'                  = 'ffd072'
-            '.accdb'                = 'ffd072'
-            '.mdb'                  = 'ffd072'
-            '.sqlite'               = 'ffd072'
-            '.pgsql'                = 'ffd072'
-            '.postgres'             = 'ffd072'
-            '.psql'                 = 'ffd072'
-            '.db'                   = 'ffd072'
+            '.pdb'                  = '287bde'
+            '.sql'                  = '287bde'
+            '.pks'                  = '287bde'
+            '.pkb'                  = '287bde'
+            '.accdb'                = '287bde'
+            '.mdb'                  = '287bde'
+            '.sqlite'               = '287bde'
+            '.pgsql'                = '287bde'
+            '.postgres'             = '287bde'
+            '.psql'                 = '287bde'
+            '.db'                   = '287bde'
 
             # Source Control
             '.patch'                = 'eb5f6a'
@@ -299,7 +299,7 @@
 
             # Text data files
             '.log'                  = 'ffd072'
-            '.txt'                  = '0f829d'
+            '.txt'                  = '404146'
 
             # Subtitle files
             '.srt'                  = '0f829d'
@@ -313,9 +313,9 @@
             '.html_vm'              = 'eb5f6a'
             '.asp'                  = 'eb5f6a'
             '.css'                  = '0f829d'
-            '.sass'                 = '4d2d2c'
-            '.scss'                 = '4d2d2c'
-            '.less'                 = '5a9f81'
+            '.sass'                 = 'cd80b9'
+            '.scss'                 = 'cd80b9'
+            '.less'                 = '287bde'
 
             # Markdown
             '.md'                   = '0f829d'
@@ -337,18 +337,18 @@
             '.lua'                  = '0f829d'
 
             # Clojure
-            '.clj'                  = '5a9f81'
-            '.cljs'                 = '5a9f81'
-            '.cljc'                 = '5a9f81'
+            '.clj'                  = '9cd750'
+            '.cljs'                 = '9cd750'
+            '.cljc'                 = '9cd750'
 
             # Groovy
             '.groovy'               = '0f829d'
 
             # Vue
-            '.vue'                  = '263c50'
+            '.vue'                  = '52a260'
 
             # Dart
-            '.dart'                 = '263c50'
+            '.dart'                 = '0f829d'
 
             # Elixir
             '.ex'                   = 'e6a96b'
@@ -363,41 +363,41 @@
             '.elm'                  = 'cd80b9'
 
             # Applescript
-            '.applescript'          = '263c50'
+            '.applescript'          = '287bde'
 
             # XML
-            '.xml'                  = '5a9f81'
-            '.plist'                = '5a9f81'
-            '.xsd'                  = '5a9f81'
-            '.dtd'                  = '5a9f81'
-            '.xsl'                  = '5a9f81'
-            '.xslt'                 = '5a9f81'
-            '.resx'                 = '5a9f81'
-            '.iml'                  = '5a9f81'
-            '.xquery'               = '5a9f81'
-            '.tmLanguage'           = '5a9f81'
-            '.manifest'             = '5a9f81'
-            '.project'              = '5a9f81'
+            '.xml'                  = '9cd750'
+            '.plist'                = '9cd750'
+            '.xsd'                  = '9cd750'
+            '.dtd'                  = '9cd750'
+            '.xsl'                  = '9cd750'
+            '.xslt'                 = '9cd750'
+            '.resx'                 = '9cd750'
+            '.iml'                  = '9cd750'
+            '.xquery'               = '9cd750'
+            '.tmLanguage'           = '9cd750'
+            '.manifest'             = '9cd750'
+            '.project'              = '9cd750'
 
             # Documents
             '.chm'                  = '0f829d'
             '.pdf'                  = 'eb5f6a'
 
             # Excel
-            '.xls'                  = '5a9f81'
-            '.xlsx'                 = '5a9f81'
+            '.xls'                  = '9cd750'
+            '.xlsx'                 = '9cd750'
 
             # PowerPoint
-            '.pptx'                 = 'eb5f6a'
-            '.ppt'                  = 'eb5f6a'
-            '.pptm'                 = 'eb5f6a'
-            '.potx'                 = 'eb5f6a'
-            '.potm'                 = 'eb5f6a'
-            '.ppsx'                 = 'eb5f6a'
-            '.ppsm'                 = 'eb5f6a'
-            '.pps'                  = 'eb5f6a'
-            '.ppam'                 = 'eb5f6a'
-            '.ppa'                  = 'eb5f6a'
+            '.pptx'                 = 'fb982e'
+            '.ppt'                  = 'fb982e'
+            '.pptm'                 = 'fb982e'
+            '.potx'                 = 'fb982e'
+            '.potm'                 = 'fb982e'
+            '.ppsx'                 = 'fb982e'
+            '.ppsm'                 = 'fb982e'
+            '.pps'                  = 'fb982e'
+            '.ppam'                 = 'fb982e'
+            '.ppa'                  = 'fb982e'
 
             # Word
             '.doc'                  = '0f829d'
@@ -405,47 +405,47 @@
             '.rtf'                  = '0f829d'
 
             # Audio
-            '.mp3'                  = '4d2d2c'
-            '.flac'                 = '4d2d2c'
-            '.m4a'                  = '4d2d2c'
-            '.wma'                  = '4d2d2c'
-            '.aiff'                 = '4d2d2c'
-            '.wav'                  = '4d2d2c'
-            '.aac'                  = '4d2d2c'
-            '.opus'                 = '4d2d2c'
+            '.mp3'                  = 'ff9b0a'
+            '.flac'                 = 'ff9b0a'
+            '.m4a'                  = 'ff9b0a'
+            '.wma'                  = 'ff9b0a'
+            '.aiff'                 = 'ff9b0a'
+            '.wav'                  = 'ff9b0a'
+            '.aac'                  = 'ff9b0a'
+            '.opus'                 = 'ff9b0a'
 
             # Images
-            '.png'                  = '263c50'
-            '.jpeg'                 = '263c50'
-            '.jpg'                  = '263c50'
-            '.gif'                  = '263c50'
-            '.ico'                  = '263c50'
-            '.tif'                  = '263c50'
-            '.tiff'                 = '263c50'
-            '.psd'                  = '263c50'
-            '.psb'                  = '263c50'
-            '.ami'                  = '263c50'
-            '.apx'                  = '263c50'
-            '.bmp'                  = '263c50'
-            '.bpg'                  = '263c50'
-            '.brk'                  = '263c50'
-            '.cur'                  = '263c50'
-            '.dds'                  = '263c50'
-            '.dng'                  = '263c50'
-            '.eps'                  = '263c50'
-            '.exr'                  = '263c50'
-            '.fpx'                  = '263c50'
-            '.gbr'                  = '263c50'
-            '.jbig2'                = '263c50'
-            '.jb2'                  = '263c50'
-            '.jng'                  = '263c50'
-            '.jxr'                  = '263c50'
-            '.pbm'                  = '263c50'
-            '.pgf'                  = '263c50'
-            '.pic'                  = '263c50'
-            '.raw'                  = '263c50'
-            '.webp'                 = '263c50'
-            '.svg'                  = 'e6a96b'
+            '.png'                  = '287bde'
+            '.jpeg'                 = '287bde'
+            '.jpg'                  = '287bde'
+            '.gif'                  = '287bde'
+            '.ico'                  = '287bde'
+            '.tif'                  = '287bde'
+            '.tiff'                 = '287bde'
+            '.psd'                  = '287bde'
+            '.psb'                  = '287bde'
+            '.ami'                  = '287bde'
+            '.apx'                  = '287bde'
+            '.bmp'                  = '287bde'
+            '.bpg'                  = '287bde'
+            '.brk'                  = '287bde'
+            '.cur'                  = '287bde'
+            '.dds'                  = '287bde'
+            '.dng'                  = '287bde'
+            '.eps'                  = '287bde'
+            '.exr'                  = '287bde'
+            '.fpx'                  = '287bde'
+            '.gbr'                  = '287bde'
+            '.jbig2'                = '287bde'
+            '.jb2'                  = '287bde'
+            '.jng'                  = '287bde'
+            '.jxr'                  = '287bde'
+            '.pbm'                  = '287bde'
+            '.pgf'                  = '287bde'
+            '.pic'                  = '287bde'
+            '.raw'                  = '287bde'
+            '.webp'                 = '287bde'
+            '.svg'                  = '287bde'
 
             # Video
             '.webm'                 = 'e6a96b'
@@ -487,21 +487,21 @@
             '.gpg'                  = '0f829d'
 
             # Fonts
-            '.woff'                 = 'eb5f6a'
-            '.woff2'                = 'eb5f6a'
-            '.ttf'                  = 'eb5f6a'
-            '.eot'                  = 'eb5f6a'
-            '.suit'                 = 'eb5f6a'
-            '.otf'                  = 'eb5f6a'
-            '.bmap'                 = 'eb5f6a'
-            '.fnt'                  = 'eb5f6a'
-            '.odttf'                = 'eb5f6a'
-            '.ttc'                  = 'eb5f6a'
-            '.font'                 = 'eb5f6a'
-            '.fonts'                = 'eb5f6a'
-            '.sui'                  = 'eb5f6a'
-            '.ntf'                  = 'eb5f6a'
-            '.mrg'                  = 'eb5f6a'
+            '.woff'                 = '5a9f81'
+            '.woff2'                = '5a9f81'
+            '.ttf'                  = '5a9f81'
+            '.eot'                  = '5a9f81'
+            '.suit'                 = '5a9f81'
+            '.otf'                  = '5a9f81'
+            '.bmap'                 = '5a9f81'
+            '.fnt'                  = '5a9f81'
+            '.odttf'                = '5a9f81'
+            '.ttc'                  = '5a9f81'
+            '.font'                 = '5a9f81'
+            '.fonts'                = '5a9f81'
+            '.sui'                  = '5a9f81'
+            '.ntf'                  = '5a9f81'
+            '.mrg'                  = '5a9f81'
 
             # Ruby
             '.rb'                   = 'eb5f6a'
@@ -516,15 +516,15 @@
             '.fsproj'               = '0f829d'
 
             # Docker
-            '.dockerignore'         = '263c50'
-            '.dockerfile'           = '263c50'
+            '.dockerignore'         = '287bde'
+            '.dockerfile'           = '287bde'
 
 
             # VSCode
-            '.vscodeignore'         = '263c50'
-            '.vsixmanifest'         = '263c50'
-            '.vsix'                 = '263c50'
-            '.code-workplace'       = '263c50'
+            '.vscodeignore'         = '287bde'
+            '.vsixmanifest'         = '287bde'
+            '.vsix'                 = '287bde'
+            '.code-workplace'       = '287bde'
 
             # Sublime
             '.sublime-project'      = 'e6a96b'
@@ -533,9 +533,9 @@
             '.lock'                 = 'e6a96b'
 
             # Terraform
-            '.tf'                   = '263c50'
-            '.tfvars'               = '263c50'
-            '.auto.tfvars'          = '263c50'
+            '.tf'                   = '287bde'
+            '.tfvars'               = '287bde'
+            '.auto.tfvars'          = '287bde'
 
             # Bicep
             '.bicep'                = '0f829d'
@@ -548,15 +548,15 @@
             '.iso'                  = 'efead9'
 
             # R language
-            '.R'                    = '263c50'
-            '.Rmd'                  = '263c50'
-            '.Rproj'                = '263c50'
+            '.R'                    = '287bde'
+            '.Rmd'                  = '287bde'
+            '.Rproj'                = '287bde'
 
             # Julia language
             '.jl'                   = 'd01c26'
 
             # Vim
-            '.vim'                  = '5a9f81'
+            '.vim'                  = '9cd750'
 
             # Puppet
             '.pp'                   = 'e6a96b'
@@ -570,7 +570,7 @@
             # Autodesk Inventor
             '.iLogicVb'             = 'eb5f6a'
 
-            '.svelte'               = 'eb5f6a'
+            '.svelte'               = 'ff9b0a'
         }
     }
 }
