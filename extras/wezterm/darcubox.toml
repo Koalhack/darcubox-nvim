@@ -32,29 +32,29 @@ brights = [
 ]
 
 [colors.tab_bar]
-inactive_tab_edge = "#1e2030"
+inactive_tab_edge = "#d0c6a5"
 background = "#0e1214"
 
 [colors.tab_bar.active_tab]
-fg_color = "#1e2030"
-bg_color = "#dd4e21"
+fg_color = "#fb982e"
+bg_color = "#0e1214"
 
 [colors.tab_bar.inactive_tab]
-fg_color = "#545c7e"
-bg_color = "#2f334d"
+fg_color = "#d0c6a5"
+bg_color = "#0e1214"
 
 [colors.tab_bar.inactive_tab_hover]
-fg_color = "#dd4e21"
-bg_color = "#2f334d"
+fg_color = "#fb982e"
+bg_color = "#0e1214"
 # intensity = "Bold"
 
 [colors.tab_bar.new_tab_hover]
-fg_color = "#dd4e21"
+fg_color = "#fb982e"
 bg_color = "#0e1214"
 intensity = "Bold"
 
 [colors.tab_bar.new_tab]
-fg_color = "#dd4e21"
+fg_color = "#fb982e"
 bg_color = "#0e1214"
 
 [metadata]
