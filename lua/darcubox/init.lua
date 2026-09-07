@@ -9,6 +9,34 @@ local defaults = {
       keywords = {},
       types = {},
     },
+
+    mode_highlights = {
+      enabled = false,
+
+      normal = {
+        cursor = {},
+        line = {},
+        linenr = {},
+      },
+
+      insert = {
+        cursor = {},
+        line = {},
+        linenr = {},
+      },
+
+      replace = {
+        cursor = {},
+        line = {},
+        linenr = {},
+      },
+
+      visual = {
+        cursor = {},
+        line = {},
+        linenr = {},
+      },
+    },
   },
   overrides = {},
 }
@@ -34,6 +62,7 @@ function M.load()
   vim.o.termguicolors = true
 
   local groups = require("darcubox.groups").setup()
+  require("darcubox.modes").setup()
 
   -- add highlights
   for group, settings in pairs(groups) do
