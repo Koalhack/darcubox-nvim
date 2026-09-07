@@ -36,8 +36,8 @@ function M.setup()
     MsgSeparator                         = { fg = p.fg, bg = bg },
     NonText                              = { fg = p.surface2 },
     Normal                               = { fg = p.fg, bg = bg,}, -- Normal text and background color
-    NormalSB                             = { fg = p.surface2, bg = contrastbg }, -- normal text in sidebar
-    NormalNC                             = { fg = p.surface1, bg = contrastbg }, -- normal text in non-current windows
+    NormalSB                             = { link = "Normal" }, -- normal text in sidebar
+    NormalNC                             = { link = "Normal" }, -- normal text in non-current windows
     NormalFloat                          = { link = "Normal" }, -- Normal text and background color
     FloatBorder                          = { fg = p.sand, bg = contrastbg },
     FloatTitle                           = { fg = p.alabaster, bg = contrastbg },
@@ -233,6 +233,13 @@ function M.setup()
     ["@keyword"]                         = { link = "Keyword" }, -- various keywords
     ["@keyword.function"]                = { link = "Keyword" }, -- keywords that define a function (e.g. `func` in Go, `def` in Python)
 
+    -- javascriptreact
+    ["@keyword.javascript"]           = { fg = p.meadow, italic = true },
+    ["@keyword.return.javascript"]    = { fg = p.meadow, italic = true },
+    ["@tag.delimiter.javascript"]     = { fg = p.ember },
+    ["@tag.javascript"]               = { fg = p.sunshine },
+    ["@variable.javascript"]          = { fg = p.sunshine },
+
     ["@label"]                           = { fg = p.lime }, -- GOTO and other labels (e.g. `label:` in C)
 
     -- Types
@@ -247,7 +254,7 @@ function M.setup()
 
     -- Text
     ["@markup.raw.markdown"]             = { fg = p.sapphire },
-    ["@markup.raw.markdown_inline"]      = { fg = p.sand, bg = p.meadow },
+    ["@markup.raw.markdown_inline"]      = { fg = p.lime },
     ["@markup.link"]                     = { fg = p.sapphire, underline = true },
 
     ["@markup.list.unchecked"]           = { fg = p.sand }, -- For brackets and parens.
